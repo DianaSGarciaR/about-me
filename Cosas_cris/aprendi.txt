@@ -1,1 +1,1 @@
-lo que aprendi en la escuela de botes eeesss
+ejemplo de como funciona, la union de ramas desde dev al main por medio de las tags
