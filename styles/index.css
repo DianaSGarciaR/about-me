@@ -1,0 +1,32 @@
+:root {
+    --color-pink-salmon: #EBB2C3;
+    --color-pink-pastel: #FDC5F5;
+    --color-fresa-crema: #F7AEF8;
+    --color-purpura: #B388EB;
+    --color-blue-pastel: #8BE2F8;
+    --color-mora: #8093F1;
+    --color-blue: #3785D8;
+    --color-blue-rey: #1C1DAB;
+    --color-blue-fuerte: #1E0F75;
+}
+
+body {
+    background-color: var(--color-mora);
+}
+
+.navbar {
+    background-color: var(--color-fresa-crema) !important;
+}
+
+.iconBtnExit {
+    background-color: var(--color-blue);
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px 5px 5px 5px;
+    padding: 1rem;
+    margin: 5px;
+}
