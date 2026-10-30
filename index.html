@@ -5,19 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abaut Me</title>
-  <!-- Boostrap -->
+  <!--* -------------- STAR: Boostrap -------------- -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <!--* -------------- STAR: Archivos css -------------- -->
   <link rel="stylesheet" href="styles/index.css">
   <!--* --------------- END: Archivos css -------------- -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+  <!--* =============== STAR: navbar =============== -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        Diana
+      <a class="navbar-brand text-light " href="#welcome">
+        🍡​ Diana
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,26 +32,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+            <a class="nav-link text-light" aria-current="page" href="#abautMe">Acerca de mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experiencia</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Mis Proyectos
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link text-light" href="#miExperiencia">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Mis habilidades</a>
+            <a class="nav-link text-light" href="#myProyects">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#misHabilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contactame">Contactame</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -56,9 +55,237 @@
       </div>
     </div>
   </nav>
+  <!--* =============== END: navbar =============== -->
 
+  <!--* =============== STAR: Banner =============== -->
+  <section id="welcome" class="format-banner">
+    <div class="container text-center">
+      <div class="row">
 
+      </div>
+      <div class="row">
+        <div class="col text-light">
+          <div class="col col-title">
+            <h3 class="title-format lobster-regular"> Bienvenido</h3>
+          </div>
+          <br>
+          <h3>
+            Hola 🍡​ soy <a class="title-format lobster-regular">Diana</a>
+          </h3>
+          <h5> Desarollador Java Full Stack</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--* =============== END: Banner ================ -->
 
+  <!--* =============== STAR: Acerca de mi =============== -->
+  <section id="abautMe" class="format-section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col col-title">
+          <h3 class="subtitle-format">Acerca de mi</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>
+            Soy Desarrolladora Java Full Stack con experiencia en el desarrollo, mantenimiento y mejora de soluciones
+            web empresariales.
+            <br>
+            Manejo tecnologías como Java, Spring Boot, JavaScript, Angular, HTML, CSS, Bootstrap y MySQL, además de
+            herramientas como GitLab y Jira. He participado en el desarrollo de módulos y funcionalidades, integración
+            de componentes, gestión de información y optimización de procesos.
+            <br>
+            Aporto una orientación a la resolución de problemas, el análisis de sistemas y la búsqueda de soluciones
+            funcionales y mantenibles, trabajando tanto de manera independiente como en equipo.
+            <br>
+            Actualmente busco nuevos retos profesionales como Java Full Stack Developer, donde pueda aportar mi
+            experiencia, fortalecer mis conocimientos y continuar creciendo dentro de un equipo de tecnología.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--* =============== END: Acerca de mi =============== -->
+
+  <!--* =============== STAR: Experiencia =============== -->
+  <section id="miExperiencia" class="section-timeline desing">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col col-title">
+          <h3 class="subtitle-format">Mi Experiencia</h3>
+        </div>
+      </div>
+
+      <div class="time-line">
+        <div class="timeline-component timeline-content">
+          <h3>Desarrollador Full Stack Java</h3>
+          <p>
+            ITICORP · Jornada completa
+            feb. de 2022 - jun. de 2025 · 3 años 5 meses
+          </p>
+        </div>
+        <div class="timeline-middle">
+          <div class="timeline-circle"></div>
+        </div>
+        <div class="timeline-empty"></div>
+        <div class="timeline-empty"></div>
+        <div class="timeline-middle">
+          <div class="timeline-circle"></div>
+        </div>
+        <div class="timeline-component timeline-content">
+          <h3>Servicio de atención al cliente</h3>
+          <p>
+            Papeleria · Jornada completa
+            sept. de 2016 - dic. de 2017 · 1 año 4 meses
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--* =============== END: Experiencia =============== -->
+
+  <!--* =============== STAR: Proyectos =============== -->
+  <section id="myProyects" class="format-section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col col-title">
+          <h3 class="subtitle-format">Proyectos</h3>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="img/tpv.png" class="card-img" alt="...">
+              <h5 class="mt-2 mb-0">The-Pixel-Vault</h5>
+              <p class="card-text fg-2">
+                Nuestro proyecto consiste en un comercio en línea de mercancía oficial con temática de videojuegos,
+                llamado “The Pixel Vault”, enfocado en la personalización avanzada y una navegación inmersiva,
+                permitiendo a cada usuario diseñar o descubrir mercancía única que verdaderamente represente su estilo
+                de vida digital.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="img/Ravenclaw.png" class="card-img" alt="...">
+              <h5 class="mt-2 mb-0">Hackathon - Casa de Hogwarts Ravenclaw</h5>
+              <p class="card-text fg-2">
+                El proyecto consistió en crear una experiencia mágica que incluyera:
+                🪄 Una vista de acceso con una pregunta que solo los verdaderos Ravenclaw de corazón sabrían responder
+                correctamente.
+                🪄 Una vista de bienvenida y una sección dedicada a personajes del mundo mágico de Harry Potter.
+                🪄 Una tienda temática con productos como varitas, pociones y hechizos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="img/Agenda.png" class="card-img" alt="...">
+              <h5 class="mt-2 mb-0">The-Pixel-Vault</h5>
+              <p class="card-text fg-2">
+                Nuestro proyecto consiste en un comercio en línea de mercancía oficial con temática de videojuegos,
+                llamado “The Pixel Vault”, enfocado en la personalización avanzada y una navegación inmersiva,
+                permitiendo a cada usuario diseñar o descubrir mercancía única que verdaderamente represente su estilo
+                de vida digital.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--* =============== END: Proyectos =============== -->
+
+  <!--* =============== STAR: Habilidades =============== -->
+  <section id="misHabilidades" class="format-section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col col-title">
+          <h3 class="subtitle-format">Habilidades</h3>
+        </div>
+      </div>
+      <div class="row card-skill">
+        <div class="col">
+          <p> CSS </p>
+        </div>
+        <div class="col">
+          <p> HTML </p>
+        </div>
+        <div class="col">
+          <p>JavaScript</p>
+        </div>
+        <div class="col">
+          <p> Angular </p>
+        </div>
+        <div class="col">
+          <p> Bootstrap </p>
+        </div>
+        <div class="col">
+          <p> Java </p>
+        </div>
+        <div class="col">
+          <p> MySQL </p>
+        </div>
+        <div class="col">
+          <p>Scrum</p>
+        </div>
+
+      </div>
+      <div class="row card-skill">
+        <div class="col">
+          <p> Resolución de problemas </p>
+        </div>
+        <div class="col">
+          <p> Trabajo en equipo </p>
+        </div>
+        <div class="col">
+          <p>Adaptabilidad</p>
+        </div>
+        <div class="col">
+          <p> Orientación al detalle </p>
+        </div>
+        <div class="col">
+          <p> Aprendizaje autodidacta </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--* =============== END: Habilidades ================ -->
+
+  <!--* =============== STAR: contactame =============== -->
+  <section id="contactame" class="format-section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col col-title">
+          <h3 class="subtitle-format">Contactame</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-light">
+            <a href="https://www.linkedin.com/in/diana-sarai-garcia-ramirez/">LinkedIn</a>
+          </button>
+          <button type="button" class="btn btn-light">
+            <a href="https://github.com/DianaSGarciaR">GitHub</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--* =============== END: contactame =============== -->
 
   <!--* -------------- STAR: Archivos js -------------- -->
   <!-- Boostrap -->
